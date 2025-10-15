@@ -13,4 +13,7 @@ export default defineConfig({
   },
   plugins: [tailwindcss(),
     react()],
+    build: {
+    outDir: 'build'  // Render 'build' directory ko publish karta hai
+  }
 })
